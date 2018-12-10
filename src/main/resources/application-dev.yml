@@ -2,8 +2,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: root
-    url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf-8&useSSL=false
+    password: pi910812
+    url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
   jpa:
     show-sql: true
   jackson:
@@ -14,13 +14,13 @@ spring:
 server:
   context-path: /sell
 
-logging:
-  pattern:
-    console: "%d - %msg%n"
-  path: /var/log/tomcat/
-  file: /var/log/tomcat/sell.log
-  level:
-    com.imooc.LoggerTest: debug
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  path: /var/log/tomcat/
+#  file: /var/log/tomcat/sell.log
+#  level:
+#    com.imooc.LoggerTest: debug
 
 wechat:
   mpAppId: wxd898fcb01713c658
