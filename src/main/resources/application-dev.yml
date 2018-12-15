@@ -23,21 +23,21 @@ server:
 #    com.imooc.LoggerTest: debug
 
 wechat:
-  mpAppId: wxd898fcb01713c658
-  mpAppSecret: 47ccc303338cee6e62894fxxxxxxxxxxx
+  mpAppId: wxdd78d0335010c758
+  mpAppSecret: e1320089b53604151db462dfb8094957
   openAppId: wx6ad144e54af67d87
   openAppSecret: 91a2ff6d38a2bbccfb7e9xxxxxx
   mchId: 1483469312
   mchKey: 06C56A89949D617xxxxxxxxxxx
   keyPath: /var/weixin_cert/h5.p12
-  notifyUrl: http://sell.natapp4.cc/sell/pay/notify
+  notifyUrl: http://zgpi.natapp1.cc/sell/pay/notify
   templateId:
     orderStatus: e-Cqq67QxD6YNI41iRiqawEYdFavW_7pc7LyEMb-yeQ
 
 projectUrl:
-  wechatMpAuthorize: http://sell.natapp4.cc
-  wechatOpenAuthorize: http://sell.natapp4.cc
-  sell: http://sell.natapp4.cc
+  wechatMpAuthorize: http://zgpi.natapp1.cc
+  wechatOpenAuthorize: http://zgpi.natapp1.cc
+  sell: http://zgpi.natapp1.cc
 #logging:
 #  level:
 #    com.imooc.dataobject.mapper: trace
